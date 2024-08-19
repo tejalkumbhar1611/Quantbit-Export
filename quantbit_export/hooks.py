@@ -1,7 +1,7 @@
 app_name = "quantbit_export"
 app_title = "Quantbit Export"
-app_publisher = "Quantbit Technologies Pvt. Ltd"
-app_description = "Details of Export"
+app_publisher = "Quantbit Technologies Pvt. Ltd."
+app_description = "Details Of Exportation"
 app_email = "contact@erpdata.in"
 app_license = "mit"
 # required_apps = []

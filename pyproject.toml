@@ -1,9 +1,9 @@
 [project]
 name = "quantbit_export"
 authors = [
-    { name = "Quantbit Technologies Pvt. Ltd", email = "contact@erpdata.in"}
+    { name = "Quantbit Technologies Pvt. Ltd.", email = "contact@erpdata.in"}
 ]
-description = "Details of Export"
+description = "Details Of Exportation"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

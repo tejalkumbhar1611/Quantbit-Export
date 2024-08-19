@@ -1,6 +1,6 @@
 ## Quantbit Export
 
-Details of Export
+Details Of Exportation
 
 #### License
 

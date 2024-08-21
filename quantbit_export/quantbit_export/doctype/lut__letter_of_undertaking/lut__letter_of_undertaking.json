@@ -1,0 +1,166 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-08-21 15:03:25.168495",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_mldz",
+  "amended_from",
+  "naming_series",
+  "column_break_pjxn",
+  "company",
+  "column_break_zbsf",
+  "date",
+  "lut_details_section",
+  "transaction_date",
+  "sr_no_in_335p_register",
+  "referance_number",
+  "entered_by",
+  "column_break_tew7",
+  "date_of_execution",
+  "date_of_acceptance",
+  "date_of_expiry",
+  "stamp_amount_of_bond",
+  "section_break_cvk3",
+  "particulars"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_mldz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "LUT -Letter of Undertaking",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "FY.-.######"
+  },
+  {
+   "fieldname": "column_break_pjxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zbsf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lut_details_section",
+   "fieldtype": "Section Break",
+   "label": "LUT Details"
+  },
+  {
+   "default": "Today",
+   "fieldname": "transaction_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Transaction Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sr_no_in_335p_register",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sr. No. in 335p Register",
+   "reqd": 1
+  },
+  {
+   "fieldname": "referance_number",
+   "fieldtype": "Data",
+   "label": "Referance Number"
+  },
+  {
+   "fieldname": "entered_by",
+   "fieldtype": "Link",
+   "label": "Entered By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_tew7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_execution",
+   "fieldtype": "Date",
+   "label": "Date of Execution"
+  },
+  {
+   "fieldname": "date_of_acceptance",
+   "fieldtype": "Data",
+   "label": "Date of Acceptance"
+  },
+  {
+   "fieldname": "date_of_expiry",
+   "fieldtype": "Data",
+   "label": "Date of Expiry"
+  },
+  {
+   "fieldname": "stamp_amount_of_bond",
+   "fieldtype": "Currency",
+   "label": "Stamp Amount Of Bond"
+  },
+  {
+   "fieldname": "section_break_cvk3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "particulars",
+   "fieldtype": "Small Text",
+   "label": "Particulars"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-21 15:26:30.873995",
+ "modified_by": "Administrator",
+ "module": "Quantbit Export",
+ "name": "LUT -Letter of Undertaking",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
